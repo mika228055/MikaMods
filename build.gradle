@@ -11,7 +11,8 @@ repositories {
 }
 
 dependencies {
-    implementation files('launchwrapper-1.12.jar') // файл має лежати в папці libs/
+    implementation files('launchwrapper-1.12.jar')
+    implementation 'org.ow2.asm:asm:5.2'
 }
 
 application {
