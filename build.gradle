@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'net.mika'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation files('launchwrapper-1.12.jar') // файл має лежати в папці libs/
+}
+
+application {
+    mainClass = 'net.mika.Main'
+}
